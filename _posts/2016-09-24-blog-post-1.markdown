@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "My First Blog Post"
+date:   2016-09-24
+categories: jekyll update
+---
+Welcome to my first blog post ever! 
+To be honest, this whole coding thing is still incredibly new to me, and still pretty intimidating, but this class is giving me more confidence every day! 
+
+I wasn't sure exactly what I wanted to put in this post, so I thought I'd talk about the subject I know the most about, **ME**
+
+I got my undergraduate degree in Pscyhology from Appalachian State University ![alt text](https://mgtvsportzedge.files.wordpress.com/2014/08/app-st.gif)
+
+I have a few obsessions: 
+Pizza ![alt text] (http://previews.123rf.com/images/memoangeles/memoangeles1410/memoangeles141000032/33113594-Salami-pizza-slice-clip-art-illustration-with-simple-gradients-All-in-a-single-layer--Stock-Vector.jpg)
+Mythology
+Game of Thrones ![alt text](https://www.google.com/search?q=game+of+thrones&biw=1153&bih=608&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiMt-_Rz6jPAhUBYyYKHWwWCZIQ_AUIBygC#imgrc=h5HpuWhdnViaLM%3A)
+
+I hope you enjoyed my post, and I'm excited to learn more!
