@@ -7,11 +7,12 @@ categories: jekyll update
 Welcome to my first blog post ever! 
 To be honest, this whole coding thing is still incredibly new to me, and still pretty intimidating, but this class is giving me more confidence every day! 
 
-I wasn't sure exactly what I wanted to put in this post, so I thought I'd talk about the subject I know the most about, :sparkles: **ME** :sparkles:
+I wasn't sure exactly what I wanted to put in this post, so I thought I'd talk about the subject I know the most about,  **ME**
 
 I got my undergraduate degree in Pscyhology from Appalachian State University ![alt text](https://mgtvsportzedge.files.wordpress.com/2014/08/app-st.gif)
 
 I have a few obsessions: 
+
 -Pizza ![pizza logo](http://slice.seriouseats.com/images/20110419-corner-slice-8th-and-31st-1.jpg)
 
 -Mythology
