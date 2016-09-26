@@ -4,8 +4,8 @@ title : About
 permalink: /about/
 ---
 
-<h2>Gravity</h2>
-<p>Minimal, text based, liberal Jekyll theme<br>for sharing your awesome ideas.</p>
+<h2>ErinGray19</h2>
+<p>This site is the about me for ErinGray19<br>For INLS 161 Assignment 2.</p>
 <br>
 <center><p ><strong><span class="manual">Get up and running with</span> Gravity</strong></p></center>
 <br>
@@ -15,8 +15,9 @@ permalink: /about/
   </div>
 <p>  <div class="manual-content">
 
-      - Create a .markdown file inside <code class="highlighter-rouge">_posts</code> folder.<br>
-      - Name the file according to the format YY-MM-DD-[short name for your post].<br>  <code>2016-03-30-i-love-design.markdown</code><br>
+      - To be honest, this whole coding thing is still incredibly new to me, and still pretty intimidating, but this class is giving me more confidence every day!<br>
+      - I got my undergraduate degree in Pscyhology from Appalachian State University. <br> 
+       ![alt text](https://mgtvsportzedge.files.wordpress.com/2014/08/app-st.gif) 
       - Write the <a href="jekyll">Front Matter</a> and content in the file.<br>
       <div class="example">
         <span class='manual'>FORMAT</span><BR>
