@@ -19,3 +19,4 @@ If there's any issue you are facing in setting up this theme I'm there for you. 
 
 ![alt-tag](https://farm2.staticflickr.com/1565/25879042020_03acf3c968_o.png)
 
+jekyll serve --host $IP --port $PORT
