@@ -17,7 +17,7 @@ permalink: /about/
 
       - To be honest, this whole coding thing is still incredibly new to me, and still pretty intimidating, but this class is giving me more confidence every day!<br>
       - I got my undergraduate degree in Pscyhology from Appalachian State University. <br> 
-        ![app logo](https://mgtvsportzedge.files.wordpress.com/2014/08/app-st.gif) <br>
+        ![alt text](https://mgtvsportzedge.files.wordpress.com/2014/08/app-st.gif) <br>
        
       - Write the <a href="jekyll">Front Matter</a> and content in the file.<br>
       <div class="example">
