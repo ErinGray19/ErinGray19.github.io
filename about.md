@@ -4,6 +4,13 @@ title : About
 permalink: /about/
 ---
 
+- To be honest, this whole coding thing is still incredibly new to me, and still pretty intimidating, but this class is giving me more confidence every day!<br>
+- I got my undergraduate degree in Pscyhology from Appalachian State University. 
+ 
+![alt text](https://mgtvsportzedge.files.wordpress.com/2014/08/app-st.gif)
+ 
+- Write the <a href="jekyll">Front Matter</a> and content in the file.<br>
+
 <h2>ErinGray19</h2>
 <p>This site is the about me for ErinGray19<br>For INLS 161 Assignment 2.</p>
 <br>
@@ -15,11 +22,13 @@ permalink: /about/
   </div>
 <p>  <div class="manual-content">
 
-      - To be honest, this whole coding thing is still incredibly new to me, and still pretty intimidating, but this class is giving me more confidence every day!<br>
-      - I got my undergraduate degree in Pscyhology from Appalachian State University. <br> 
-        ![alt text](https://mgtvsportzedge.files.wordpress.com/2014/08/app-st.gif) <br>
-       
-      - Write the <a href="jekyll">Front Matter</a> and content in the file.<br>
+- To be honest, this whole coding thing is still incredibly new to me, and still pretty intimidating, but this class is giving me more confidence every day!<br>
+- I got my undergraduate degree in Pscyhology from Appalachian State University. 
+ 
+![alt text](https://mgtvsportzedge.files.wordpress.com/2014/08/app-st.gif)
+ 
+- Write the <a href="jekyll">Front Matter</a> and content in the file.<br>
+
       <div class="example">
         <span class='manual'>FORMAT</span><BR>
         <pre>---
