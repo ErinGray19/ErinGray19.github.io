@@ -4,19 +4,63 @@ title:  "My First Blog Post"
 date:   2016-09-24
 categories: jekyll update
 ---
-Welcome to my first blog post ever! 
-To be honest, this whole coding thing is still incredibly new to me, and still pretty intimidating, but this class is giving me more confidence every day! 
+<center><p><strong> Welcome to my first blog post!</strong></p></center>
+ 
+<center><h2> This blog post will focus on some of the key things we've learned in class so far </h2></center><br>
 
-I wasn't sure exactly what I wanted to put in this post, so I thought I'd talk about the subject I know the most about,  **ME**
+<center><h3> Introduction </h3></center> <br>
 
-I got my undergraduate degree in Pscyhology from Appalachian State University ![alt text](https://mgtvsportzedge.files.wordpress.com/2014/08/app-st.gif)
+- We're using Cloud9 to write code in plain text <br>
+- And Github to publish our webpages <br>
+```Using Github allows us to use Version Control as a way to track changes``` <br>
 
-I have a few obsessions: 
+- We're using Markdown as our language because it is easy to use and easy to write <br>
+- [This page](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) is a great guide some some Markdown tips and helped me write this page!
 
--Pizza ![pizza logo](http://slice.seriouseats.com/images/20110419-corner-slice-8th-and-31st-1.jpg)
+<center><h3> Commands </h3></center> <br>
+To get around the Command Line, it is helpful to know some of the commands used!
+- For getting around in Directories, you'll need to know <br>
+**`cd`** `change directory` <br>
+**`pwd`** `show current directory` <br>
+**`ls`** `list files` <br>
 
--Mythology
+- With using Github, we can use other commands as well, Here's a few I use all of the time. <br>
+**`git log`** `shows past commits` <br>
+**`git add __`** `adds changes to list to be committed` <br>
+**`git commit -m`** `commits chnages to the master branch, and add message` <br>
+**`git push`** `pushes changes to your website` <br>
+**`git status`** `lists files that have been changed but not committed` <br>
+**`git init`** `create new local repository` <br>
+- You can find more Linux Commands [here](https://www.cheatography.com/davechild/cheat-sheets/linux-command-line/) <br>
+- There's also a ton more Git Commands some of which are [here](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html) <br> 
 
--Game of Thrones ![got logo](http://cdn.wccftech.com/wp-content/uploads/2015/05/GoT.png)
+<center><h3> Forking and Cloning In Github </h3></center> <br>
+- For forking I thought it might be fun to show this easy to follow video <br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/f5grYMXbAV0" frameborder="0" allowfullscreen></iframe> <br>
 
-I hope you enjoyed my post, and I'm excited to learn more!
+- Cloning is similar to forking, in that we're finding a repository from someone else and making edits
+- But with a clone, we don't need to worry about pushing the changes to the creator
+- Instead it exists in our repositories as if we created it!
+- To creat a clone, you will get the url from Github like here
+- ![clone](https://raw.githubusercontent.com/silshack/inls161fall2016/gh-pages/assets/ref-images/clone.png)<br> 
+- Then you will clone to your Cloud9 terminal with the command <br>
+ `git clone copiedurl`
+- From here you can `cd` into your new repository and explore and change things!
+
+<center><h3> CSS Changes </h3></center> <br>
+- Within your Cloud9 terminal you can change the style of your page by accessing the file, style.css<br>
+- Within this file you can change things like color, font, size, etc..<br>
+- So far [this site](http://www.w3schools.com/css/default.asp) by w3schools has been my go to for all things CSS!<br>
+
+
+<center><h3> Branching and Merging </h3></center> <br>
+- Branching is a good way to work on code and test it out before you commit it to the master<br>
+- To checkout a branch you can use: <br> 
+- `git checkout -b testing` this code creates a new branch and switches you into it. <br> 
+- While in this new branch we can make changes that aren't committed to our website until we merge the testing branch and the master branch. <br> 
+
+- To merge your branch back into your master (after all of your changes are saved, of course!), you'll `git checkout master` and be greeted by your old version of your site
+- You will then `git merge testing` to merge your testing commits into the master!
+
+<center><strong> This has been a rundown of the things we've been learning in class so far.<br> 
+I will try to add more posts whenever more things are learned!
