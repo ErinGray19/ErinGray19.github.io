@@ -11,7 +11,6 @@ email: epg@ad.unc.edu
 description: The ErinGray19 Jekyll Theme
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://eringray19.github.io/
-twitter_username: nope
 github_username:  ErinGray19
 
 # Build settings
