@@ -4,19 +4,63 @@ title:  "My First Blog Post"
 date:   2016-09-24
 categories: jekyll update
 ---
+
 Welcome to my first blog post ever! <br>
-To be honest, this whole coding thing is still incredibly new to me, and still pretty intimidating, but this class is giving me more confidence every day! <br>
 
-I wasn't sure exactly what I wanted to put in this post, so I thought I'd talk about the subject I know the most about,  **ME** <br>
+<h3> <center> Welcome to my first blog post ever! 
+This First Blog Post will be on some things we've learned so far in this class! </center> </h3>
 
-I got my undergraduate degree in Pscyhology from Appalachian State University ![alt text](https://mgtvsportzedge.files.wordpress.com/2014/08/app-st.gif) <br>
+#### *Intro* 
+- To start, we'll be using *Cloud9* to write code to publish sites through *Github* using *Plaintext* <br>
+<img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" width="48"> Github is allows us to use Version Control to track changes made to files.
 
-I have a few obsessions: <br>
 
--Pizza ![pizza logo](http://slice.seriouseats.com/images/20110419-corner-slice-8th-and-31st-1.jpg) <br>
+#### *Shell Commands* 
+- There are several simple commands you can use to move around the Linux Shell in Cloud9 
 
--Mythology <br>
+> Directory Operations <br>
+> `ls` list files and directories <br>
+> `cd` change directory <br>
+> `pwd` print working directory (tells you where you are) <br>
+> `mkdr` make directory
 
--Game of Thrones ![got logo](http://cdn.wccftech.com/wp-content/uploads/2015/05/GoT.png) <br>
+#### *Git Commands* 
+- There are also several commands you can use that are specific to *Github*
 
-I hope you enjoyed my post, and I'm excited to learn more!
+> `git status` Tells you if any files have been modified <br>
+> `git log` shows a log of past commits <br>
+> `git revert __` reverts to repository before changes made <br>
+> `git add` adds changes to be committed <br>
+> `git commit -m` commits changes to be pushed <br>
+> `git push` pushes commits made up to Github <br>
+>>>>>>> testing
+
+
+#### *Forking and Cloning* <br>
+- For forking, I've found this great video that walks you through the whole process <br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/f5grYMXbAV0" frameborder="0" allowfullscreen></iframe>
+- Cloning is very similar to Forking, only we're copying the repository to our account, and we will not be contributing to the future of that respository on that person's account. Instead it will exisit in our account fully from now on. <br>
+
+#### *CSS* 
+- I also wanted to touch on CSS briefly, because it is a huge part of building a website in my opinion. <br>
+- `CSS` Stands for Cascading Style Sheet and affects the entire look of your website! <br>
+- With CSS you can modify colors, backgrounds, borders, margins, etc.. the options are literally limitless!! <br>
+- I have personally been using [w3schools](http://www.w3schools.com/html/"w3schools) for all of my CSS needs, and I highly reccommend it! <br>
+- Basically, you will need to go into your `style.css` file to see or make changes 
+
+#### *Branching and Merging*  <br>
+- Branching and Merging is probably my new most favorite thing!
+- It allows you to test out changes that you can look at locally before pushing it all the way to your website
+- It's also, pretty darn easy!
+- To open a new branch in your terminal you will use the commmand `git checkout -b testing` <br>
+
+> you can use whichever name you want for your branch, here I used `testing` <br>
+
+- Once you open a new branch you will be automatically pulled into it, where you can start making changes like you normally would to the master branch <br>
+- After you've made all of your necessary changes, you will, like normal, save, add, commit *then* 
+- go to `git checkout master` to get to the master branch, and `git merge` to add your changes in testing to your master branch! 
+
+> see, i told you that was easy <img src="https://fishseekingbicycle.files.wordpress.com/2012/07/emoticonblog.jpeg" width="48">
+
+
+**I hope you enjoyed my post, and I will post more when I can!**

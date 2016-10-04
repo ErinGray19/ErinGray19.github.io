@@ -96,7 +96,7 @@ blockquote {
   color: #828282;
   border-left: 4px solid #e8e8e8;
   padding-left: 15px;
-  font-size: 18px;
+  font-size: 14px;
   letter-spacing: -1px;
   font-style: italic; }
   blockquote > :last-child {
@@ -160,8 +160,8 @@ pre {
     fill: #828282; }
 
 .post {
-  font-family: "Source Sans Pro";
-  font-size: 18px;
+  font-family: "Georgia";
+  font-size: 16px;
   font-weight: 300;
   padding-top: 0; }
 
@@ -433,7 +433,7 @@ pre {
   margin-bottom: 30px;
   padding-bottom: 3em !important; }
   .post-content p {
-    font-size: 1.5rem; }
+    font-size: 18px; }
   .post-content h2 {
     font-size: 32px; }
     @media screen and (max-width: 800px) {
