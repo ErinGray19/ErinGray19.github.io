@@ -3,8 +3,8 @@ layout: page
 title : About
 permalink: /about/
 ---
-<center><h2>ErinGray19</h2></center>
-<p>This site is the about me for ErinGray19<br>For INLS 161 Assignment 2.</p>
+
+<header><center><h2><strong> About Me </strong> for ErinGray19<br>For INLS 161 Assignment 2.</h2></center></header>
 <br>
 
 <center>Welcome to my About Me Page!</center>
