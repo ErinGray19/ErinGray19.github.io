@@ -31,7 +31,6 @@ This First Blog Post will be on some things we've learned so far in this class! 
 > `git add` adds changes to be committed <br>
 > `git commit -m` commits changes to be pushed <br>
 > `git push` pushes commits made up to Github <br>
->>>>>>> testing
 
 
 #### *Forking and Cloning* <br>
