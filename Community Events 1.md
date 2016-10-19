@@ -30,7 +30,8 @@ This site sets up the code to fit together like puzzle pieces, so that they only
 I for one plan to use this site to build my skills for the future!! <br>
 <br>
 <li> We then moved on to <a href="https://projecteuler.net/">Project Euler</a> which is set up with different logic puzzles that you need to solve with java, which we did thorugh this site <a href="https://www.compilejava.net/">Compile Java </a></li>
-<iframe height="400px" width="100%" src="https://www.compilejava.net/" name="iframe_a"></iframe>
+(which was broken as of earlier today, so I found another online java site! )
+<iframe height="400px" width="100%" src="https://www.tutorialspoint.com/compile_java_online.php" name="iframe_a"></iframe>
 
 
 Overall, I thought this was a pretty great experience. I will definitely be using these tools to explore and build my future IT skills! 
