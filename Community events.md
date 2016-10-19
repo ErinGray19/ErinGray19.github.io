@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Community event
+title: Workshop 1
 permalink: /events/
 ---
 <h3><center><header> Community Events </header> <br>
