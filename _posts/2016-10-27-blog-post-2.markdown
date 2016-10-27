@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Assignment 3 Blog Post"
+date:   2016-10-27
+categories: jekyll update
+---
+
+<h3> <center> Document Conversion and Scripts 
+This Blog Post will be on the things  </center> </h3>
