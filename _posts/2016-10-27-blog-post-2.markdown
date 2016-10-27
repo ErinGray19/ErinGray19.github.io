@@ -6,4 +6,4 @@ categories: jekyll update
 ---
 
 <h3> <center> Document Conversion and Scripts 
-This Blog Post will be on the things  </center> </h3>
+This Blog Post will be on what I've done for Assignment 3  </center> </h3>
