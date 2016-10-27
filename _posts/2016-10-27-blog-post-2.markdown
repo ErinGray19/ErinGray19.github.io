@@ -7,3 +7,42 @@ categories: jekyll update
 
 <h3> <center> Document Conversion and Scripts 
 This Blog Post will be on what I've done for Assignment 3  </center> </h3>
+
+#### *Abstract of Written Work*
+
+My Paper I chose to alter was a paper that I'd written for my Intro to Archives Class on 
+a patent letter that went missing from the National Archives for almost 40 years. 
+This was the incredibly important pantent submission from 1903 from Orville and 
+Wilbur Wright. The iconic patent documents, complete with sketches were discovered 
+missing in the year 2000, and after targeted searches by specialy designated teams, 
+was rediscovered earlier this year. I use this paper to explore the implications
+of losing archival records on the whole of the archival world.
+
+
+#### *Text Conversion*
+
+- At first my script included 4 different pandoc scripts that I'd taken from one of our class assignments, and it looked like this: 
+
+> pandoc -S -o WrightBrothersPatent.html WrightBrothersPatent.md <br>
+> pandoc -S -o WrightBrothersPatent.docx WrightBrothersPatent.md <br>
+> pandoc -S -o WrightBrothersPatent.odt WrightBrothersPatent.md <br>
+> pandoc -S -o WrightBrothersPatent.pdf WrightBrothersPatent.md <br>
+
+- While this worked fine, I wanted to attempt a `for loop` since I noticed I was 
+repeating the same steps over and over except for the end result text type. 
+
+- To do this, I copied the example used in class to make the colorful "Happy Birthday Text" since I also wanted to play around with the colors! 
+
+<img src="/Gravity/image-1.png" alt="Happy Birthday" style="width:304px;height:228px;">
+
+![Happy Birthday](/image-1.png?raw=true)
+
+- After I looked over the for loop for a while I could start to decipher what was being called and when and was able to adjust the different elements to relect what I needed to change for my colors to show.
+
+
+
+#### *Files Created with Links*
+
+#### *Link to Editor*
+
+#### *Reflections and "AHA" moments*
