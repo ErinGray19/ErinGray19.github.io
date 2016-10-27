@@ -28,21 +28,49 @@ of losing archival records on the whole of the archival world.
 > pandoc -S -o WrightBrothersPatent.odt WrightBrothersPatent.md <br>
 > pandoc -S -o WrightBrothersPatent.pdf WrightBrothersPatent.md <br>
 
+- I took the setup and replaced my file name, and had it convert to the files I needed.
 - While this worked fine, I wanted to attempt a `for loop` since I noticed I was 
 repeating the same steps over and over except for the end result text type. 
 
 - To do this, I copied the example used in class to make the colorful "Happy Birthday Text" since I also wanted to play around with the colors! 
 
-<img src="/Gravity/image-1.png" alt="Happy Birthday" style="width:304px;height:228px;">
+![Happy Birthday](/images/image-1.png)
 
-![Happy Birthday](/image-1.png?raw=true)
+- After I looked over the for loop for a while I could start to decipher what was being called and when, and was able to adjust the different elements to relect what I needed to change for my colors to show.
+- I ended up able to change my readout to show the file types created in different colors as shown here: 
 
-- After I looked over the for loop for a while I could start to decipher what was being called and when and was able to adjust the different elements to relect what I needed to change for my colors to show.
+![File Conversion](/images/image-2.jpg)
 
-
+- I also found a function that tells you the date when you run your script and I loved it. 
+- I had to google a few times before I could make it work, but I thought it was really cool.
 
 #### *Files Created with Links*
 
-#### *Link to Editor*
+- Here's a link to my [Wright Brothers' Patent Word Doc](https://github.com/inls161/assignment-3-ErinGray19/blob/master/WrightBrothersPatent.docx)
+- Here's a link to my [Wright Brothers' Patent HTML](https://github.com/inls161/assignment-3-ErinGray19/blob/master/WrightBrothersPatent.html)
+- Here's a link to my [Wright Brothers' Patent MD](https://github.com/inls161/assignment-3-ErinGray19/blob/master/WrightBrothersPatent.md)
+- Here's a link to my [Wright Brothers' Patent ODT](https://github.com/inls161/assignment-3-ErinGray19/blob/master/WrightBrothersPatent.odt)
+- Here's a link to my [Wright Brothers' Patent PDF](https://github.com/inls161/assignment-3-ErinGray19/blob/master/WrightBrothersPatent.pdf)
+- Here's a link to my [Script](https://github.com/inls161/assignment-3-ErinGray19/blob/master/ErinGray19-convert-docs.sh)
+
+#### *Link to Command Line Editor*
+
+- Here's a link to my [Command Line Editor](https://ide.c9.io/eringray19/assignment3)
 
 #### *Reflections and "AHA" moments*
+
+- I had so many "AHA" moments doing this and was admittedly unsure about a lot of what I was doing, but I think it came out alright.
+
+- When I was attempting the `for loop` I ran into a few issues with the colors 
+- The first time I ran the script for the `for loop` to list out each file created with the file type in different colors, I ended up changing the colors for everything until the next color change
+- After looking at the [colors page](http://misc.flogisoft.com/bash/tip_colors_and_formatting) again I noticed there's this fun sequence that removes the color correction!
+
+> `\e[0m` helpfully kills all that pesky color correction!!! <br>
+> This was probably the highlight to the whole project
+
+- When I made it to the `date function` I first used a function from the [linux command shell script](http://linuxcommand.org/lc3_wss0020.php) and it didn't work.
+- I'm still not sure *exactly* why it didnt work, but I consulted a few other sites (via Google) and was able to find a [forum](http://stackoverflow.com/questions/1401482/yyyy-mm-dd-format-date-in-shell-script)
+with some other options that I was able to opt in, and it worked!! 
+
+- I feel like I've learned a lot on this assignment from branching out and doing stuff on my own, also the other people in class have been really helpful during our project work time in class!
+- I'm feeling pretty good about my work this time, please let me know if there's anything I need to modify!
