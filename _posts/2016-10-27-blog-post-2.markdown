@@ -53,6 +53,8 @@ repeating the same steps over and over except for the end result text type.
 - Here's a link to my [Wright Brothers' Patent PDF](https://github.com/inls161/assignment-3-ErinGray19/blob/master/WrightBrothersPatent.pdf)
 - Here's a link to my [Script](https://github.com/inls161/assignment-3-ErinGray19/blob/master/ErinGray19-convert-docs.sh)
 
+- Here's a pretty version of my [HTML](https://assignment3-eringray19.c9users.io/WrightBrothersPatent.html)
+
 #### *Link to Command Line Editor*
 
 - Here's a link to my [Command Line Editor](https://ide.c9.io/eringray19/assignment3)
