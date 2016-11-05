@@ -1,0 +1,86 @@
+---
+layout: post
+title:  "Assignment 4 Blog Post"
+date:   2016-11-05
+categories: jekyll update
+---
+
+
+<h3> <center> Creating Data! 
+This Blog Post will be on what I've done for Assignment 4  </center> </h3>
+
+#### *Group Project!*
+My Group for this project consisted of Brynna `brynnaw` and Amanda `aehaney` and of
+course me! `ErinGray19` <br>
+These ladies were great! 10 out of 10 would group project again! <br>
+With our powers combined, we were team <h7 style="background-color:#00FF00">
+BlueBlueGreen</h7> <br>
+
+- Here's a link to our [Github Repository](https://github.com/brynnaw/BlueBlueGreen-Assignment-4/commits/master) <br>
+
+- And a link to my [Cloud 9](https://ide.c9.io/eringray19/assignment-4) (just in case you need that too)
+
+#### *Reflection*
+- We started out by having Brynna create the original `Prep` folder with our original and fun questions.
+- After which, Amanda and I pulled the questions into our individual workspaces.
+Our Great questions are: 
+
+> What is your name? <br>
+> What is your favorite color? <br>
+> What is your biggest fear? <br>
+> What is your major? <br>
+> What was the last thing you ate? <br>
+
+##### *Script*
+
+- Our script, I feel like, was similar to what I did in our Assignment 3. 
+- To ask a question, you want to make sure you `echo` your question. 
+- Then, to be sure your answer is read as a variable you can pull up again later, you'll use `read food` (food can be replaced to match your answer needed)
+
+##### *Unique Identifier*
+
+- Our group had to play around a little bit in order to nail down the unique identifier string, but I was so excited whenever we figured it out!
+- To do it, we basically used a function, very similar to the one we used on the date stamp (although, I'm not sure we needed to do it that way, now that I look at it)
+- I think it was Brynna who happened to find the command for a unique identifier, after we'd tried a few things that didn't workspaces
+- We ended up using the identifier `random` to be able to call that unique identifier to other places and used the command:
+- 
+> cat /proc/sys/kernel/random/uuid
+- This gave us a beautifully large unique identifier! 
+
+
+##### *Date Stamp*
+- I personally was pretty excited that we got to do a date stamp (mostly because I did one in our Assignment 3!!)
+- We used the function I'd used before without the added `Date Stamp:` identifier that I'd used before, to make it prettier when we merged it later
+- The below function assigns the date stamp with the name `today` so we can recall it at the bottom
+- The date is laid out with the command `date +%m-%d-%Y` to give us a MM-DD-YYYY format for the date
+- We can call the date to show up wherever we need it to in our script with `echo "$(today)"`
+
+
+> `#` Saving the date the user answered the questions <br>
+> today() { <br>
+>    date +%m-%d-%Y <br>
+> } <br>
+
+> `#` Tell the date answered <br>
+> echo "$(today)" <br>
+
+##### *Putting User Data into a CSV*
+- This part had me all confused. 
+- I knew we'd done something similar before whenever we'd combined all of our individual csv files into one csv file, but I was thinking about it wrong!
+- I can't remember who in our group figured it out, but since we had everything set up with variables, we figured out that you can just `echo` all of your variables and pipe that into our already exisitng final csv!
+- I was super excited that we were able to do that, I was so stuck on transferring files from one output to another, so that was a big lightbulb when we figured that one out!
+
+##### *Finishing Up*
+
+- Thankfully we didn't run into any conflicts, and were able to pull all of the scripts, run them without issue
+- we all seemed to play pretty well together and everyone was very helpful whenever one of us would get off track or confused about something.
+- I was pleasantly surprised with my group, the way we were able to tackle some of these issues
+- I think my favorite part was when we figured out how to pipe our variable answers into our full csv, it was such a obstacle for me, only because I wasn't thinking about it correctly!
+
+<br>
+<br>
+<br>
+I hope you enjoyed my reflection, now here's another `Reflection` for your entertainment
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kgWiMm_Nffc" frameborder="0" allowfullscreen></iframe>
+
