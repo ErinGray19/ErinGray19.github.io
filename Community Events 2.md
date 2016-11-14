@@ -4,7 +4,7 @@ title: Workshop 2
 permalink: /events 2/
 ---
 
-<h2 style="text-align:center;"> Community Event # 2- BitCurator </h2><br>
+<h2 style="text-align:center;"> <header> Community Event # 2- BitCurator </header> </h2><br>
 
 <center>
 <img src="http://www.bitcurator.net/wp-content/uploads/2015/11/bc2-new-red.png">
