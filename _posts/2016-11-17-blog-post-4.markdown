@@ -1,0 +1,64 @@
+---
+layout: post
+title:  "Assignment 5 Blog Post"
+date:   2016-11-17
+categories: jekyll update
+---
+
+<h3><center> Database Interface! 
+This Blog Post will be on what I've done for Assignment 5  </center></h3>
+<h5> More like Database "In-your-face" </h5>
+
+<center>
+ <img width="320" height="320" id="praisejesus" src="/images/image-4.jpg"/>
+</center>
+
+- Here's a link to our [Github Repository](https://github.com/aehaney/bluebluegreen) <br>
+
+- And a link to my [Cloud 9](https://ide.c9.io/eringray19/assignment-5) (just in case you need that too)
+
+This time Amanda was a our repo czar, and she was awesome, of course!
+
+#### *As a team:*
+*Clone your original script and .csv files from assignment 4 in this repository. Then cd into that new directory and rm -rf .git to remove the assignment 4 git tracking. Do not do this in your assignment 5 repository.*
+
+> For this task, the wording had us a bit confused at first, but after we conferred with you, we were able to do it without any issues! 
+
+#### *Make a branch with an archived version of your first questionnaire script.*
+
+> We were also able to do this with no issues! We were familiar with branching from previous assignments, so this was easy-peesy! 
+
+#### *Switch back into the master branch to work on this assignment.*
+
+> Yeah, since we’d all worked with branches in the past, we were able to get through this without issue. 
+
+#### *Create a database that has the appropriate variables and variable types (this might be an accessory script or a conditional statement in your script).*
+
+> This was mostly easy. We did have issues in that we didn’t line up our database variables the same as we’d listed them in script, so whenever we merged the two later, we ended up with mislabeled columns. We tried to modify this without dropping our whole table, but we weren’t able to find anything to do that, so we ended up going through and dropping the table and recreating it in the correct order. This was much easier than trying to fix it, since creating a table isn’t that difficult, just a little time consuming. 
+
+#### *Modify your script to do the following:*
+*connect to a MySQL database (HINT: this will involve setting variables for MySQL username, password, and location)*
+
+> We were able to find a few things to do this. We did run into the issue of duplicates in the form of, when we run the script it takes all of the data in the csv file and puts all of the data in the database again, and then adds the user input at the bottom. We were unsure if we were going to be able to fix this, but I was able to find an option for a primary key that took out all of duplicates. BUT, we weren't able to add in our new info.<br>
+
+> When we brought this problem to you, and you walked us through how to modify our script to `Ignore` the duplicates. We were grateful and mad we didn't find that ourselves! I'm glad we were able to fix it, and a little annoyed it only took one word, that we couldn't find. 
+
+*Enter the data input by users into a MySQL database*
+
+> Again, since we'd done this a few times in the past, we were able to do it with no issues!
+
+*dump the MySQL database into a .sql file in your repository directory with the rest of your files after it has been modified with next data*
+
+> We ended up staying after on Monday 11/14 to do this. We were a bit apprehensive here, wondering if it was going to be quite complicated, but really I thought we were able to pull it off quite nicely!*
+
+#### *Run your script several times to collect data.*
+
+> This we were able to do no problem! Having run scripts for the last assignment, I think we all felt pretty confident here.
+
+#### *Review*
+> We also ran into another problem when Amanda pushed her script out, and I pulled it in. Since we'd used her name in creating the tables, I wasn't able to access the `mysql` table. We remembered that we could replace her username in the script by asking for, and calling your username so we added a question in `echo "What is your username?" read username` and called it again with `$username` in our script `mysql -u $username -p -H -e "LOAD DATA INFILE'/home/ubuntu/workspace/bluebluegreen/BlueBlueGreen-Assignment-4/scriptanswers.csv' IGNORE INTO TABLE scripttable FIELDS TERMINATED BY ',';" scriptdatabase`
+
+> And another problem we'd had was that when we were able to open the table, there was no table open and insert data into. 
+So we had to go in and create our own tables, and put the instructions in our `README` file which is on the front page of our repository! 
+
+> Ultimately, I really enjoy my team, but i feel like we were all kind of stuck in the same places on this assignment. I feel like we collaborated with other teams a lot more in this assignment, since they’re all different kinds of people who are all on different levels. I do feel like we do work together as a team, and we work well, I think just in this instance we were all thinking very similarly. 
