@@ -8,7 +8,7 @@ categories: jekyll update
 <h3> <center> Be Presentable </center></h3>
 <h4> <center>This Blog Post will be on what I've done for Assignment 6  </center> </h4>
 
-- Here's a link to our <strong> [Awesome Presentation](https://assignment3-eringray19.c9users.io/newassignment6/index.html#/) </strong><br>
+- Here's a link to our <strong> [Awesome Presentation](https://brynnaw.github.io/newassignment6/#/) </strong><br>
 
 #### **Reflections**
 
